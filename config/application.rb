@@ -20,7 +20,7 @@ module Logix
     # -- all .rb files in that directory are automatically loaded.
 
     # configuring mailer previews directory
-    config.action_mailer.preview_path = "#{Rails.root}/lib/mailer_previews"
+    config.action_mailer.preview_paths = "#{Rails.root}/lib/mailer_previews"
 
     # config/application.rb
     config.view_component.preview_paths << "#{Rails.root}/spec/components/previews"
